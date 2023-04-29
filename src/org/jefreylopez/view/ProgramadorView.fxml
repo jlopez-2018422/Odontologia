@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="400.0" style="-fx-background-color: #08f5f0;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="org.jefreylopez.controller.ProgramadorController">
+   <children>
+      <Label layoutX="40.0" layoutY="83.0" text="Jefrey Eduardo ">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="137.0" fitWidth="133.0" layoutX="223.0" layoutY="74.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../image/Perfil.png" />
+         </image>
+      </ImageView>
+      <Label layoutX="43.0" layoutY="140.0" prefHeight="30.0" prefWidth="150.0" text="López Ampérez">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="57.0" layoutY="274.0" prefHeight="17.0" prefWidth="82.0" text="2018422">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="65.0" layoutY="207.0" prefHeight="17.0" prefWidth="119.0" text="IN5AM">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="20.0" />
+         </font>
+      </Label>
+      <Label layoutX="146.0" layoutY="23.0" text="Programador ">
+         <font>
+            <Font name="Times New Roman Bold Italic" size="20.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
